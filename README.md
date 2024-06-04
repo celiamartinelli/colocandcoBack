@@ -4,14 +4,16 @@
 
 Coloc&Co est une application web dédiée à la gestion de colocation. Ce dépôt contient la partie backend de l'application, développée avec Node.js et Express. Le backend gère l'API RESTful pour les fonctionnalités de gestion des tâches, des profils utilisateurs et liste de courses commune.
 
+![Texte alternatif](./public/capture/Capture%20d’écran%202024-06-04%20à%2008.21.37.png "Titre optionnel")
+
+![Texte alternatif](./public/capture/Capture%20d’écran%202024-06-04%20à%2008.22.01.png "Titre optionnel")
+
 ## Table des matières
 
 - [Fonctionnalités](#fonctionnalités)
 - [Technologies Utilisées](#technologies-utilisées)
 - [Installation](#installation)
 - [Utilisation](#utilisation)
-- [Contributions](#contributions)
-- [Captures d'écran](#captures-décran)
 
 ## Fonctionnalités
 
@@ -25,6 +27,8 @@ Coloc&Co est une application web dédiée à la gestion de colocation. Ce dépô
 - **Node.js** : Environnement d'exécution pour JavaScript côté serveur.
 - **Express** : Framework web pour Node.js.
 - **JSON Web Token (JWT)** : Standard pour sécuriser les échanges entre deux parties.
+
+![Texte alternatif](./public/capture/Capture%20d’écran%202024-06-04%20à%2008.21.20.png "Titre optionnel")
 
 ## Installation
 
@@ -74,21 +78,12 @@ L'API fournit plusieurs endpoints pour gérer les utilisateurs, les tâches et l
 - **Créer une tâche** : `POST /api/tasks`
 - **Liste des dépenses** : `GET /api/expenses`
 
-## Contributions
+## Profil d'un colocataire
 
-Les contributions sont les bienvenues ! Si vous avez des idées pour améliorer l'application ou corriger des bugs, n'hésitez pas à ouvrir une issue ou à soumettre une pull request.
+![Texte alternatif](./public/capture/Capture%20d’écran%202024-06-04%20à%2008.22.43.png "Titre optionnel")
 
-1. Forkez le projet.
-2. Créez votre branche feature :
-   ```bash
-   git checkout -b feature/ma-nouvelle-feature
-   ```
-3. Commitez vos changements :
-   ```bash
-   git commit -m 'Ajouter ma nouvelle feature'
-   ```
-4. Poussez votre branche :
-   ```bash
-   git push origin feature/ma-nouvelle-feature
-   ```
-5. Ouvrez une pull request.
+## EditMode de son Profil
+
+![Texte alternatif](./public/capture/Capture%20d’écran%202024-06-04%20à%2008.24.36.png "Titre optionnel")
+
+![Texte alternatif](./public/capture/Capture%20d’écran%202024-06-04%20à%2008.24.18.png "Titre optionnel")
